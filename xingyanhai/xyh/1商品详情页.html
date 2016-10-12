@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/html1.css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/html1.js"></script>
+	<script src="js/public.js"></script>
+</head>
+<body>
+
+
+<!-- top -->
+<div id="top-warp">
+	<div id="top">
+		<div>
+			<a class="a1" href="javascript:;">登录</a><a class="a2" href="javascript:;">免费注册<span>送50元</span></a>|<a class="a3" href="javascript:;">电话订购会员登录<span>送50元</span></a><a class="lastTop" href="javascript:;">我的风尚</a>
+			
+			<div class="lastcon">
+				<a href="javascript:;">我的订单</a><br>
+				<a href="javascript:;">我的积分</a><br>
+				<a href="javascript:;">我的优惠券</a><br>
+				<a href="javascript:;">我的消息</a><br>
+				<a href="javascript:;">我的收藏</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+<!-- herder -->
+<div id="herder">
+	<h2 id="logo">
+		<a href="javascript:;"><img src="img/logo.gif" alt="logo"></a>
+	</h2>
+	<div class="QR"><img src="img/herder-QR.png" alt="二维码"></div>
+	<form action="" method="">
+		<div class="herderText">
+			<input type="text" placeholder="请输入商品关键字或者货号"><a href="javascript:;">搜索</a>
+		</div>
+		<p class="hotSearch">
+			<span>热门搜索</span>
+			<a href="javascript:;">手表</a>
+			<a href="javascript:;">海参</a>
+			<a href="javascript:;">国宾</a>
+			<a href="javascript:;">洗衣机</a>
+			<a href="javascript:;">拖把</a>
+			<a href="javascript:;">窗帘</a>
+			<a href="javascript:;">羽绒服</a>
+			<a href="javascript:;">皮衣</a>
+			<a href="javascript:;">蚕丝被</a>
+		</p>
+	</form>
+	<div class="herderAdd"><img src="img/herder-app.png" alt="支持支付宝"></div>
+	<div class="shopCarWrap">
+		<div class="shopCar"><a href="javascript:;">去购物车结算<span>0</span></a></div>
+	</div>
+</div>
+
+
+
+
+<!-- nav -->
+<div id="nav">
+    <dl class="navdl">
+        <dt class="allgoods">
+        	<div><a href="#">全部商品分类</a></div>
+        	<ul id="navList" style="display:none">
+
+        		<li><a href="javascript:;">家具生活</a>
+					<!-- 三级选项卡1 -->
+					<div class="listCon">
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">家具用品</a></li>
+								<li><a href="javascript:;">卧室床品</a></li>
+								<li><a href="javascript:;">厨浴电器</a></li>
+								<li><a href="javascript:;">汽车用品</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">乐扣乐扣</a></dd>
+								<dd><a href="javascript:;">妙煮妇</a></dd>
+								<dd><a href="javascript:;">太古</a></dd>
+								<dd><a href="javascript:;">爱仕达</a></dd>
+								<dd><a href="javascript:;">老木匠</a></dd>
+								<dd><a href="javascript:;">康佳</a></dd>
+								<dd><a href="javascript:;">彼得斯卡</a></dd>
+								<dd><a href="javascript:;">白玉兰</a></dd>
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+        		<li><a href="javascript:;">数码家电</a>
+					<!-- 三级选项卡2 -->
+					<div class="listCon" >
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">日用电器</a></li>
+								<li><a href="javascript:;">电脑及周边</a></li>
+								<li><a href="javascript:;">数码影音</a></li>
+								<li><a href="javascript:;">手机</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">TCL</a></dd>
+								<dd><a href="javascript:;">清华同方</a></dd>
+								<dd><a href="javascript:;">康佳</a></dd>
+								<dd><a href="javascript:;">创维酷开</a></dd>
+								<dd><a href="javascript:;">长虹</a></dd>
+								<dd><a href="javascript:;">美的</a></dd>
+								<dd><a href="javascript:;">格兰仕</a></dd>
+								<dd><a href="javascript:;">东芝</a></dd>
+								<dd><a href="javascript:;">奥马</a></dd>
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+
+        		<li><a href="javascript:;">保健养生</a>
+					<!-- 三级选项卡3 -->
+					<div class="listCon" >
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">户外运动</a></li>
+								<li><a href="javascript:;">保健用品</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">海斯曼</a></dd>
+								<dd><a href="javascript:;">美国福特</a></dd>
+								<dd><a href="javascript:;">好美呀</a></dd>
+								<dd><a href="javascript:;">尚都</a></dd>
+								<dd><a href="javascript:;">ROVOS荣耀</a></dd>
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+        		<li><a href="javascript:;">服饰配件</a>
+					<!-- 三级选项卡4 -->
+					<div class="listCon" >
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">手表</a></li>
+								<li><a href="javascript:;">服饰内衣</a></li>
+								<li><a href="javascript:;">鞋帽配饰</a></li>
+								<li><a href="javascript:;">箱包</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">阿玛尼</a></dd>
+								<dd><a href="javascript:;">花花公子</a></dd>
+								<dd><a href="javascript:;">大上海</a></dd>
+								<dd><a href="javascript:;">浪莎</a></dd>
+								<dd><a href="javascript:;">摒绝</a></dd>
+								<dd><a href="javascript:;">奥马</a></dd>
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+
+        		<li><a href="javascript:;">美容美发</a>
+					<!-- 三级选项卡5 -->
+					<div class="listCon" >
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">护肤品牌</a></li>
+								<li><a href="javascript:;">美容化妆</a></li>
+								<li><a href="javascript:;">基础护理</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">金兰</a></dd>
+								<dd><a href="javascript:;">韩后</a></dd>
+								<dd><a href="javascript:;">康佳</a></dd>
+								<dd><a href="javascript:;">海曙</a></dd>
+								<dd><a href="javascript:;">韩束</a></dd>
+								<dd><a href="javascript:;">格兰仕</a></dd>
+
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+
+
+        		<li><a href="javascript:;">食品保健</a>
+					<!-- 三级选项卡6 -->
+					<div class="listCon" >
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">营养食品</a></li>
+								<li><a href="javascript:;">减肥食品</a></li>
+								<li><a href="javascript:;">茶酒礼品</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">茅台</a></dd>
+								<dd><a href="javascript:;">二郎神</a></dd>
+								<dd><a href="javascript:;">猪八戒</a></dd>
+								<dd><a href="javascript:;">唐僧肉</a></dd>
+								<dd><a href="javascript:;">什么</a></dd>
+								<dd><a href="javascript:;">没了</a></dd>
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+
+        		<li><a href="javascript:;">珠宝收藏</a>
+					<!-- 三级选项卡7 -->
+					<div class="listCon" >
+						<div class="listconin">
+							<ul class="listconinLeft">
+								<li><a href="javascript:;">珠宝配饰</a></li>
+								<li><a href="javascript:;">收藏品</a></li>
+								<li><a href="javascript:;">多兰之戒</a></li>
+							</ul>
+							<dl class="listconinCenter">
+								<dt><a href="javascript:;">推荐品牌</a></dt>
+								<dd><a href="javascript:;">周大福</a></dd>
+								<dd><a href="javascript:;">周六福</a></dd>
+								<dd><a href="javascript:;">真爱</a></dd>
+								<dd><a href="javascript:;">安妮</a></dd>
+								<dd><a href="javascript:;">和氏璧</a></dd>
+								<dd><a href="javascript:;">南阳玉</a></dd>
+							</dl>
+							<dl class="listconinRight">
+								<dt><a href="javascript:;">热门活动</a></dt>
+								<dd><a href="javascript:;"><img src="img/navright1.jpg" alt="add"></a></dd>
+								<dd><a href="javascript:;"><img src="img/navright2.jpg" alt="add"></a></dd>
+							</dl>
+						</div>
+				    </div>
+        		</li>
+
+
+
+        		<li class="navliborder"></li>
+        		<li class="navhotp">
+        			<h5>热门品牌</h5>
+        			<p><a href="javascript:;">东芝</a><a href="javascript:;">长虹</a><a href="javascript:;">美的</a><a href="javascript:;">康佳</a></p>
+        			<p><a href="javascript:;">爱仕达</a><a href="javascript:;">花花公子</a><a href="javascript:;">浪莎</a><a href="javascript:;">老工匠</a></p>
+        			<p><a href="javascript:;">巧主妇</a><a href="javascript:;">红豆</a><a href="javascript:;">莫罗琦</a><a href="javascript:;">韩束</a></p>
+        			<p><a href="javascript:;">金兰</a><a href="javascript:;">五粮液</a><a href="javascript:;">泸州</a></p>
+        		</li>
+        	</ul>
+  
+        </dt>
+        <dd>
+            <a href="http://www.fstvgo.com">首页</a><a href="http://product.fstvgo.com/tv/TVLive.aspx" class="tvlive">电视直播</a><a href="http://product.fstvgo.com/HotSale/HotSale.aspx">热卖榜</a> <a href="http://product.fstvgo.com/HotSale/Fsh.aspx">风尚惠</a><a href="http://product.fstvgo.com/HotSale/Activity.aspx?Id=MTIx">手机购物</a><a href="http://product.fstvgo.com/Shop.aspx">品牌店中店</a>
+        </dd>
+    </dl>
+    <div class="navMsg"><a href="javascript:;"><img src="img/navmsg.jpg" title="点击给我发消息"></a></div>
+
+</div>
+
+<div id="main">
+
+	<div id="alltype">
+		<dl>
+            <dt><a class="vitxt" href="http://product.fstvgo.com/list-100.html" target="_blank">所有类别</a></dt>
+            <dd><a href="http://product.fstvgo.com/list-100-225.html" target="_blank">珠宝收藏</a></dd>
+            <dd><a href="http://product.fstvgo.com/list-100-225-230.html" target="_blank"> 珠宝配饰</a></dd>
+        </dl>
+	</div>
+<!-- 内容模板中间部分网页内容 -->
+	<div id="details">
+		<div class="detLeft">
+
+		<!-- 放大镜区域 -->
+			<div class="detpicbig">
+				<ul class="detpicbigcon">
+					<li><a href="javascript:;"><img src="img/201607121732041233347.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/201607121732037021239.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/201607121732046225475.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/201607121732053713667.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/201607121732057301759.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/201607121732061045855.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/201607121732067910031.png" alt=""></a></li>
+				</ul>
+				<div class="shadow"></div>
+			</div>
+
+		<!-- 中间小缩略图区域 -->
+			<div class="detpicsmall">
+				<a class="detbtnLeft" href="javascript:;"></a>
+				<div class="detsamllwrap">
+					<ul class="detsamllcon">
+						<li style="border-color:#ff6600"><a href="javascript:;"><img src="img/201607121732041233347.png" alt=""></a></li>
+						<li><a href="javascript:;"><img src="img/201607121732037021239.png" alt=""></a></li>
+						<li><a href="javascript:;"><img src="img/201607121732046225475.png" alt=""></a></li>
+						<li><a href="javascript:;"><img src="img/201607121732053713667.png" alt=""></a></li>
+						<li><a href="javascript:;"><img src="img/201607121732057301759.png" alt=""></a></li>
+						<li><a href="javascript:;"><img src="img/201607121732061045855.png" alt=""></a></li>
+						<li><a href="javascript:;"><img src="img/201607121732067910031.png" alt=""></a></li>
+					</ul>
+				</div>
+				<a class="detbtnRight" href="javascript:;"></a>
+			</div>
+
+		
+			<div class="detleftB">
+				<div class="detleftBL">
+					<span>分享到：</span>
+					<!-- JiaThis Button BEGIN -->
+					<div class="jiathis_style">
+						<a class="jiathis_button_qzone"></a>
+						<a class="jiathis_button_tsina"></a>
+						<a class="jiathis_button_tqq"></a>
+						<a class="jiathis_button_weixin"></a>
+						<a class="jiathis_button_renren"></a>
+						<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+						<a class="jiathis_counter_style"></a>
+					</div>
+					<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+				</div>
+				<p class="detleftBR"><a href="javascript:;"><img src="img/pr_sc.png" alt=""></a></p>
+				
+			</div>
+			<div class="detBigarea">待添加js</div>
+        </div>
+
+
+
+		<div class="detCenter">
+			<div class="detCenterT">
+				<h3>富贵雍华帝皇黄玉髓毛衣链</h3>
+            	<dl class="detCenterTT">
+            		<dt><b>货&nbsp;&nbsp;&nbsp;&nbsp;号：</b><span>454565</span></dt>
+            		<dd><b>风尚价格：</b><span>￥998</span></dd>
+            	</dl>
+            	<div class="detCenterTB">
+            		<dl>
+            			<dt style="color:#f1320a;">1.5</dt>
+            			<dd>元/网购积分</dd>
+            		</dl>
+            		<dl>
+            			<dt style="color:#0066cc;">5484</dt>
+            			<dd>件/月销量</dd>
+            		</dl>
+            		<dl>
+            			<dt>&nbsp;</dt>
+            			<dd>暂无评价</dd>
+            		</dl>
+            	</div>
+			</div>
+
+			<div class="detCenterB">
+				<div class="detCenterB1">
+					<span>库存：</span>
+					<div class="detadd">
+						<span>河南646464 郑州</span>
+						<b></b>
+						<div class="detaddcon">
+							<p class="detaddconfff"></p>
+							<a class="detaddconx" href="javascript:;">&times;</a>
+							<ul class="detaddconnav">
+								<li class="detaddconnavactive"><a href="javascript:;">河464646南</a><b></b></li>
+								<li><a href="javascript:;">邓fsdfs州</a><b></b></li>
+							</ul>
+							<div class="detaddconIn">
+								<ul class="area-list" style="">
+									<li title="江西省"><a href="#none" data-value="1">江西</a></li>
+									<li title="江苏省"><a href="#none" data-value="2">江苏</a></li>
+									<li title="安徽省"><a href="#none" data-value="3">安徽</a></li>
+									<li title="山东省"><a href="#none" data-value="4">山东</a></li>
+									<li title="甘肃省"><a href="#none" data-value="5">甘肃</a></li>
+									<li title="浙江省"><a href="#none" data-value="6">浙江</a></li>
+									<li title="湖北省"><a href="#none" data-value="7">湖北</a></li>
+									<li title="湖南省"><a href="#none" data-value="8">湖南</a></li>
+									<li title="吉林省"><a href="#none" data-value="9">吉林</a></li>
+									<li title="天津市"><a href="#none" data-value="10">天津</a></li>
+									<li title="上海市"><a href="#none" data-value="11">上海</a></li>
+									<li title="重庆市"><a href="#none" data-value="12">重庆</a></li>
+									<li title="河北省"><a href="#none" data-value="13">河北</a></li>
+									<li title="山西省"><a href="#none" data-value="14">山西</a></li>
+									<li title="辽宁省"><a href="#none" data-value="15">辽宁</a></li>
+									<li title="北京市"><a href="#none" data-value="16">北京</a></li>
+									<li title="黑龙江省"><a href="#none" data-value="17">黑龙江</a></li>
+									<li title="福建省"><a href="#none" data-value="18">福建</a></li>
+									<li title="河南省"><a href="#none" data-value="20">河南</a></li>
+									<li title="广东省"><a href="#none" data-value="21">广东</a></li>
+									<li title="海南省"><a href="#none" data-value="22">海南</a></li>
+									<li title="四川省"><a href="#none" data-value="23">四川</a></li>
+									<li title="贵州省"><a href="#none" data-value="24">贵州</a></li>
+									<li title="云南省"><a href="#none" data-value="25">云南</a></li>
+									<li title="陕西省"><a href="#none" data-value="26">陕西</a></li>
+									<li title="青海省"><a href="#none" data-value="28">青海</a></li>
+									<li title="内蒙古自治区"><a href="#none" data-value="29">内蒙古</a></li>
+									<li title="广西壮族自治区"><a href="#none" data-value="30">广西</a></li>
+									<li title="西藏自治区"><a href="#none" data-value="31">西藏</a></li>
+									<li title="宁夏回族自治区"><a href="#none" data-value="32">宁夏</a></li>
+									<li title="新疆维吾尔自治区"><a href="#none" data-value="33">新疆</a></li>
+								</ul>
+
+								<ul class="area-list" style="display:none;">
+									<li><a href="#none" data-value="71">广州市</a></li>
+									<li><a href="#none" data-value="72">韶关市</a></li>
+									<li><a href="#none" data-value="73">清远市</a></li>
+									<li><a href="#none" data-value="74">梅州市</a></li>
+									<li><a href="#none" data-value="75">汕头市</a></li>
+									<li><a href="#none" data-value="76">揭阳市</a></li>
+									<li><a href="#none" data-value="77">潮州市</a></li>
+									<li><a href="#none" data-value="78">惠州市</a></li>
+									<li><a href="#none" data-value="79">汕尾市</a></li>
+									<li><a href="#none" data-value="80">河源市</a></li>
+									<li><a href="#none" data-value="81">深圳市</a></li>
+									<li><a href="#none" data-value="82">珠海市</a></li>
+									<li><a href="#none" data-value="325">阳江市</a></li>
+									<li><a href="#none" data-value="326">云浮市</a></li>
+									<li><a href="#none" data-value="330">湛江市</a></li>
+									<li><a href="#none" data-value="334">茂名市</a></li>
+									<li><a href="#none" data-value="342">佛山市</a></li>
+									<li><a href="#none" data-value="343">肇庆市</a></li>
+									<li><a href="#none" data-value="344">江门市</a></li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+					<b>&nbsp;现货</b>
+				</div>
+				<div class="detCenterB2">
+					
+				</div>
+				<div class="detCenterB3"></div>
+				<div class="detCenterB4"></div>
+			</div>
+
+		</div>
+
+
+		<div class="detRight"></div>
+	</div>
+
+
+</div>
+
+
+
+</body>
+</html>

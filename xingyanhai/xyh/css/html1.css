@@ -1,0 +1,344 @@
+
+
+#main{
+	width: 1200px;
+	margin: 0 auto;
+	background: #069;
+}
+/****************所以类别>...>...>**************/
+#alltype{
+    width: 1198px;
+    height: 38px;
+    background: #eeeeee;
+    border: #dddddd 1px solid;
+}
+#alltype dl{
+	float: left;
+    margin-left: 20px;
+    line-height: 38px;
+}
+#alltype dl dt{
+	float: left;
+    font-weight: bold;
+    color: #666666;
+    margin-right: 3px;
+    font-size: 14px;
+}
+#alltype dl dd{
+	float: left;
+    color: #999999;
+    margin-left: 10px;
+    background: url(../img/in_dhi.gif) no-repeat left center;
+    padding-left: 17px;
+}
+#alltype dl dd a{
+	color: #999;
+}
+
+/*****************内容模板中间部分网页内容**********************/
+#details{
+    width: 1200px;
+    margin-top: 10px;
+}
+.detLeft{
+	float: left;
+    width: 478px;
+    height: 594px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.detpicbig{
+	width: 478px;
+	height: 477px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	overflow: hidden;
+}
+ul.detpicbigcon{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 700%;
+	height: 477px;
+}
+ul.detpicbigcon li{
+	width: 478px;
+	height: 477px;
+	float: left;
+}
+ul.detpicbigcon li img{
+	width: 100%;
+	height: 100%;
+}
+.shadow{
+	width: 245px;
+	height: 245px;
+	border:1px solid #666;
+	position: absolute;
+	background: #fff;
+	opacity: 0.5;
+}
+
+.detpicsmall{
+	width: 478px;
+	height: 72px;
+	border-bottom: 1px solid #ddd;
+}
+a.detbtnLeft{
+	float: left;
+	width: 17px;
+	height: 72px;
+	background: url(../img/prevbtn.gif);
+	margin-right: 4px;
+}
+a.detbtnRight{
+	float: right;
+	width: 17px;
+	height: 72px;
+	background: url(../img/nextbtn.gif);
+}
+.detsamllwrap{
+	float: left;
+	width: 440px;
+	height: 72px;
+	position: relative;
+}
+.detsamllcon{
+	position: absolute;
+	height: 100%;
+}
+.detsamllcon li{
+	margin-left: 9px;
+	margin-top: 12px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	float: left;
+}
+.detsamllcon li img{
+	width: 100%;
+	height: 100%;
+}
+
+.detleftB{
+	width: 478px;
+	height: 45px;
+}
+.detleftBL{
+	float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 300px;
+
+}
+.detleftBL>span{
+	float: left;
+
+}
+.detleftBR{
+	margin-top: 8px;
+	margin-right: 10px;
+	float: right;
+}
+.detBigarea{
+	position: absolute;
+	left: 480px;
+	top:0;
+	width: 479px;
+	height: 479px;
+	border: 1px solid #999;
+	display: none;
+}
+
+
+.detCenter{
+	float: left;
+    width: 440px;
+    margin-left: 20px;
+    height: 594px;
+}
+.detCenterT{
+	width: 440px;
+	height: 209px;
+}
+.detCenterT h3{
+    width: 440px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: #dddddd 1px solid;
+    line-height: 24px;
+    padding-bottom: 19px;
+}
+.detCenterTT{
+	width: 440px;
+	height: 93px;
+	border-bottom: #dddddd 1px solid;
+}
+.detCenterTT dt{
+	height: 46px;
+	line-height: 46px;
+}
+.detCenterTT dd span{
+	color: #f1320a;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 46px;
+    vertical-align: bottom;
+}
+.detCenterTT dd{
+	height: 46px;
+	line-height: 46px;
+}
+.detCenterTT b{
+	font-weight: normal;
+	color: #999;
+	line-height: 46px;
+}
+.detCenterTB{
+	width: 440px;
+	height: 66px;
+	border-bottom: #dddddd 1px solid;
+}
+.detCenterTB dl{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	line-height: 33px;
+	color: #999;
+}
+.detCenterTB dl dt{
+	font-weight: bold;
+}
+.detCenterB{
+	width: 440px;
+	height: 300px;
+	background: green;
+}
+.detCenterB1{
+	height: 45px;
+	padding-top: 15px;
+	width: 440px;
+}
+.detCenterB1 span{
+	float: left;
+	line-height: 23px;
+}
+.detCenterB1 b{
+	float: left;
+	line-height: 23px;
+}
+.detadd{
+	height: 23px;
+	float: left;
+	border:1px solid #cecbce;
+	position: relative;
+	background: #fff;
+	z-index: 10;
+}
+.detadd>span{
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	padding-left: 5px;
+}
+.detadd>b{
+	float: right;
+	width: 17px;
+	height: 24px;
+	background: url(../img/newicon20130617.png) no-repeat -264px -188px;
+}
+.detaddcon{
+	position: absolute;
+	width: 420px;
+	height: 275px;
+	border: 1px solid #ddd;
+	left: -45px;
+	top:23px;
+	background: #fff;
+	z-index: 0;
+	display: none;
+}
+.detaddconfff{
+	position: absolute;
+	top:-1px;
+	left: 44px;
+	width: 87px;
+	height: 1px;
+	background: #fff;
+}
+.detaddconx{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: -9px;
+	right: -9px;
+	background: #333;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+}
+.detaddconnav{
+	width: 370px;
+	height: 30px;
+	border-bottom: 2px solid #f1320a;
+	padding-left: 13px;
+	margin: 18px 0 0 28px;
+}
+.detaddconnav li{
+	background: #fff;
+	float: left;
+	height: 28px;
+	border:  2px solid #ddd;
+	margin-right: 5px;
+	border-bottom: 0;
+	line-height: 25px;
+}
+.detaddconnav .detaddconnavactive{
+	border:  2px solid #f1320a;
+	border-bottom: 0;
+	height: 30px;
+
+}
+.detaddconnav li a{
+	padding-left: 5px;
+	float: left;
+}
+.detaddconnav li b{
+	float: right;
+	background: url(../img/jd-stock.png) 0 -35px no-repeat;
+	margin-right: 4px;
+	margin-top:10px;
+	width: 7px;
+	height: 5px;
+}
+.detaddconIn{
+	margin-top: 6px;
+	margin-left: 32px;
+	width: 380px;
+	height: 210px;
+}
+.area-list li{
+	float: left;
+	width: 95px;
+	height: 25px;
+	line-height: 25px;
+}
+.area-list li a:hover{
+	padding: 3px;
+	background: #005aa0;
+	color: #fff;
+}
+
+
+
+
+.detRight{
+	float: left;
+    width: 238px;
+    margin-left: 20px;
+    height: 100px;
+    background: red;
+}
+
